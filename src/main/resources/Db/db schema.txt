@@ -1,0 +1,19 @@
+CREATE TABLE tasks (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    description TEXT,
+    due_date DATETIME,
+    status VARCHAR(100),
+    remarks TEXT,
+    created_on DATETIME,
+    last_updated_on DATETIME,
+    user_id BIGINT NOT NULL,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+
+CREATE TABLE users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255) UNIQUE
+);
