@@ -1,5 +1,6 @@
 # Task Management System
 **1. Overview:** This project is created to perform CURD operations(Create, Update, Retrieve, Delete) on tasks.
+1.1  ER diagram : ![Screenshot 2025-06-06 195614](https://github.com/user-attachments/assets/6d408b32-0fba-4cf9-ad11-6d39a76456da)
 
 **2. Explanation of DB Design -**
 
