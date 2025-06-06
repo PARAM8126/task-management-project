@@ -2,6 +2,7 @@
 1. Overview: This project is created to perform CURD operations(Create, Update, Retrieve, Delete)
 
 **2. Explanation of DB Design -**
+
 2.1. ER Diagram: Entity Relationship Diagram explains the relationship between user and tasks.
 2.2. Data Dictionary: It represents the metadata information about the tables.
 2.3. Documentation of Indexes is used to h
