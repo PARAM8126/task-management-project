@@ -1,5 +1,5 @@
-# task-management-system
-**1. Overview:** This project is created to perform CURD operations(Create, Update, Retrieve, Delete)
+# Task Management System
+**1. Overview:** This project is created to perform CURD operations(Create, Update, Retrieve, Delete) on tasks.
 
 **2. Explanation of DB Design -**
 
