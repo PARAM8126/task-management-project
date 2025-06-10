@@ -41,17 +41,13 @@ Open src/main/resources/application.properties and set your local DB  credential
                  Then run as Spring Boot App
 
 
-
-
-    
-
-
-
-
 **5. How to run or install the project** - Steps are as follow:
+  :  Run the Frontend : 
+
 5.1. User needs to open index. html page available at below path:
 src/main/resources/templates/index.html
-
+ and Make sure it points to backend at http://localhost:8081/api/...
+ 
 5.1.1. Create task: User can create task using these columns:  Title, User_id, description, due date, status, Remarks, created By, update by.
 5.1.2 Update task: User can update task using these columns:  Title, description, due date, status, Remarks, created By, update by.
 5.1.3 Retrieve task: User can find any task using Task_id.
